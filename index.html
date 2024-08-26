@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+    <section class="main-container">
+        <div class="outer">
+            <div class="inner-1">
+                <div class="tabs">
+                    <div class="logo-image">
+                        <img src="images/harsha-icon1.jpg" alt="Website Logo" />
+                    </div>
+                    <div class="close-btn">
+                        <button onclick="toggleNavBar()"><i class="bi bi-x-lg"></i></button>
+                    </div>
+                    <div class="nav-tabs">
+                        <div class="nav-links" onclick="toggleNavBar()" data-target="#home-section">Home</div>
+                        <div class="nav-links" onclick="toggleNavBar()" data-target="#profile-section">Profile</div>
+                        <div class="nav-links" onclick="toggleNavBar()" data-target="#skills-section">Skills</div>
+                        <div class="nav-links" onclick="toggleNavBar()" data-target="#projects-section">Projects</div>
+                        <div class="nav-links" onclick="toggleNavBar()" data-target="#contact-section">Contact</div>
+                    </div>
+                    <div class="social-media-links">
+                        <div class="media-links d-block"><i class="bi bi-share-fill"></i>
+                        </div>
+                        <div class="media-links d-md-block"><a href="#"><i class="bi bi-facebook"></i></a>
+                        </div>
+                        <div class="media-links d-md-block"><a href="#"><i class="bi bi-whatsapp"></i></a>
+                        </div>
+                        <div class="media-links d-md-block"><a href="#"><i class="bi bi-youtube"></i></a>
+                        </div>
+                        <div class="media-links d-md-block"><a href="#"><i class="bi bi-instagram"></i></a>
+                        </div>
+                        <div class="media-links d-md-block"><a href="#"><i class="bi bi-twitter"></i></a>
+                        </div>
+                        <!-- <div class="media-links"><i class="bi bi-threads"></i></div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="inner-2">
+                <div class="website-navbar">
+                    <div>
+                        <img src="images/web-icon.png" alt="Harsha icon">
+                        <span>Portfolio</span>
+                    </div>
+                    <button onclick="toggleNavBar()"><i class="bi bi-list"></i></button>
+                </div>
+                <div class="tabs-content">
+                    <div id="home-section" class="content-section">
+                        <h1 class="tab-section-name">Home Page</h1>
+                        <div class="tab-content-section">
+                            <div class="main-content">
+                                <p>Welcome to</p>
+                                <p>Harsha's</p>
+                                <p>Website <span>...</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="profile-section" class="content-section">
+                        <h1 class="tab-section-name">Profile Page</h1>
+                        <div class="tab-content-section">
+                            <div class="main-content">
+                                <div class="profile-content">
+                                    <div class="profile-pic">
+                                        <img src="images/harsha.img.jpg" alt="Profile Photo">
+                                    </div>
+                                    <div class="profile-about">
+                                        <p>
+                                            I'm <span>A Harshavardhan</span>, hailing from Nagari, Andhra Pradesh.
+                                            Currently, I work as an <span>SFCC Developer</span> at <span>Cloud
+                                                Odyssey</span>, where I leverage my skills as a full-stack developer. I
+                                            hold a B.Tech degree in Electronics and Communication Engineering (ECE),
+                                            which has provided me with a solid foundation in both technical and
+                                            problem-solving aspects. Passionate about technology and innovation, I enjoy
+                                            tackling complex challenges and contributing to dynamic projects.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="skills-section" class="content-section">
+                        <h1 class="tab-section-name">skills Section</h1>
+                        <div class="tab-content-section">
+                            <div class="main-content">
+                                <div class="skills-list">
+                                    <div class="skill-set">
+                                        <div class="skill-image">
+                                            <img src="images/java.png" alt="Java Logo">
+                                        </div>
+                                        <h3 class="skill-name">Java</h3>
+                                    </div>
+                                    <div class="skill-set">
+                                        <div class="skill-image">
+                                            <img src="images/python.jpg" alt="Java Logo">
+                                        </div>
+                                        <h3 class="skill-name">Python</h3>
+                                    </div>
+                                    <div class="skill-set">
+                                        <div class="skill-image">
+                                            <img src="images/javascript.jpg" alt="Java Logo">
+                                        </div>
+                                        <h3 class="skill-name">JavaScript</h3>
+                                    </div>
+                                    <div class="skill-set">
+                                        <div class="skill-image">
+                                            <img src="images/html.jpg" alt="Java Logo">
+                                        </div>
+                                        <h3 class="skill-name">HTML</h3>
+                                    </div>
+                                    <div class="skill-set">
+                                        <div class="skill-image">
+                                            <img src="images/css.jpg" alt="Java Logo">
+                                        </div>
+                                        <h3 class="skill-name">CSS</h3>
+                                    </div>
+                                    <div class="skill-set">
+                                        <div class="skill-image">
+                                            <img src="images/django.jpg" alt="Java Logo">
+                                        </div>
+                                        <h3 class="skill-name">Django</h3>
+                                    </div>
+                                    <div class="skill-set">
+                                        <div class="skill-image">
+                                            <img src="images/react.png" alt="Java Logo">
+                                        </div>
+                                        <h3 class="skill-name">React</h3>
+                                    </div>
+                                    <div class="skill-set">
+                                        <div class="skill-image">
+                                            <img src="images/sql.png" alt="Java Logo">
+                                        </div>
+                                        <h3 class="skill-name">SQL</h3>
+                                    </div>
+                                    <div class="skill-set">
+                                        <div class="skill-image">
+                                            <img src="images/dsa.jpg" alt="Java Logo">
+                                        </div>
+                                        <h3 class="skill-name">DSA</h3>
+                                    </div>
+                                    <div class="skill-set">
+                                        <div class="skill-image">
+                                            <img src="images/vs-code.png" alt="Java Logo">
+                                        </div>
+                                        <h3 class="skill-name">VS Code</h3>
+                                    </div>
+                                    <div class="skill-set">
+                                        <div class="skill-image">
+                                            <img src="images/eclipse.jpg" alt="Java Logo">
+                                        </div>
+                                        <h3 class="skill-name">Eclipse</h3>
+                                    </div>
+                                    <div class="skill-set">
+                                        <div class="skill-image">
+                                            <img src="images/git-logo.jpg" alt="Java Logo">
+                                        </div>
+                                        <h3 class="skill-name">Git Hub</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="projects-section" class="content-section">
+                        <h1 class="tab-section-name">projects Section</h1>
+                        <div class="tab-content-section">
+                            <div class="main-content">
+                                <div class="projects-list">
+                                    <div class="project">
+                                        <div class="project-image">
+                                            <img src="images/todo-list.png" alt="Todo List Icon">
+                                        </div>
+                                        <div class="project-info">
+                                            <div class="project-name">
+                                                <h3>Todo List App</h3>
+                                            </div>
+                                            <div class="project-description">
+                                                <ul>
+                                                    <li>Dynamic Task Management.</li>
+                                                    <li>Modern UI Design.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project">
+                                        <div class="project-image">
+                                            <img src="images/weather-icon.jpg" alt="Weather app icon">
+                                        </div>
+                                        <div class="project-info">
+                                            <div class="project-name">
+                                                <h3>Weather App</h3>
+                                            </div>
+                                            <div class="project-description">
+                                                <ul>
+                                                    <li>Real-Time Weather Data Integration.</li>
+                                                    <li>Elegant and Responsive User Interface.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project">
+                                        <div class="project-image">
+                                            <img src="images/portfolio-icon.png" alt="Portfolio logo">
+                                        </div>
+                                        <div class="project-info">
+                                            <div class="project-name">
+                                                <h3>Personal Portfolio</h3>
+                                            </div>
+                                            <div class="project-description">
+                                                <ul>
+                                                    <li>Showcase of Skills and Projects.</li>
+                                                    <li>Responsive Design with Bootstrap.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project">
+                                        <div class="project-image">
+                                            <img src="images/book-store-icon.jpg" alt="Book store logo">
+                                        </div>
+                                        <div class="project-info">
+                                            <div class="project-name">
+                                                <h3>Bookstore Website</h3>
+                                            </div>
+                                            <div class="project-description">
+                                                <ul>
+                                                    <li>Showcase of Skills and Projects.</li>
+                                                    <li>Responsive Design with Bootstrap, Html, css and Javascript.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="contact-section" class="content-section">
+                        <h1 class="tab-section-name">contact Me</h1>
+                        <div class="tab-content-section">
+                            <div class="main-content">
+                                <div class="contact-section">
+                                    <div class="contact-image">
+                                        <img src="images/contact-me.png" alt="Contact me logo">
+                                    </div>
+                                    <div class="contact-info">
+                                        <p class="contact-heading">Email Address</p>
+                                        <p class="contact-ans">ananthamharsha333@gmail.com</p>
+                                        <p class="contact-heading">Phone no</p>
+                                        <p class="contact-ans">9515006387</p>
+                                        <p class="contact-heading">Outlook mail</p>
+                                        <p class="contact-ans">harshavardhan.a@cloudodyssey.co</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="chat-btn">
+        <button><i class="bi bi-chat-dots"></i></button>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('div .nav-links').first().addClass('active');
+            $('div .content-section').first().addClass('active');
+            $('.nav-links').on('click', function () {
+                var $id = $(this).data('target');
+                // alert($id);
+                // alert($('.nav-links').first());
+                // console.log($('.nav-links').first());
+                $('div .nav-links').removeClass('active');
+                $('div .content-section').removeClass('active');
+
+                $(this).addClass('active');
+                $($id).addClass('active');
+            })
+        });
+    </script>
+
+    <script>
+        function toggleNavBar() {
+            var selector = document.querySelector('.inner-1');
+            selector.classList.toggle('active');
+        }
+    </script>
+
+</body>
+
+</html>
